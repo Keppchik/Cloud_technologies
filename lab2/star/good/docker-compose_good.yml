@@ -1,0 +1,21 @@
+services:
+  service_a:
+    build: ../service_a
+    container_name: service_a_isolated
+    ports:
+      - "127.0.0.1:8000:8000"
+    networks:
+      - net_a
+  service_b:
+    build: ../service_b
+    container_name: service_b_isolated
+    ports:
+      - "127.0.0.1:8001:8001"
+    networks:
+      - net_b
+
+networks:
+  net_a:
+    driver: bridge
+  net_b:
+    driver: bridge

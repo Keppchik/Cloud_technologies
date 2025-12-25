@@ -1,0 +1,74 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Storage;Storage&Content Delivery;Amazon Elastic File System;Additional Costs;Tax;AmazonEFS;;;Tax%
+Storage;Storage&Content Delivery;Amazon Elastic File System;Storage Usage;Timed Storage;AmazonEFS;%TimedStorage-ByteHrs;;
+Storage;Storage&Content Delivery;Amazon Elastic File System;Data Access;Infrequent Access;AmazonEFS;%IADataAccess-Bytes;;
+Storage;Storage&Content Delivery;Amazon Elastic File System;Throughput;Provisioned Throughput;AmazonEFS;%TP-MiBpsHrs%;;
+Cloud Services;Artificial Intelligence;Amazon Elastic Inference;Additional Costs;Tax;AmazonEI;;;Tax%
+Cloud Services;Artificial Intelligence;Amazon Elastic Inference;Instance Usage;eia1 Instance;AmazonEI;%eia1%;;
+Cloud Services;Artificial Intelligence;Amazon Elastic Inference;Instance Usage;eia2 Instance;AmazonEI;%eia2%;;
+Database;Database;Amazon ElastiCache;Additional Costs;Tax;AmazonElastiCache;;;Tax%
+Database;Database;Amazon ElastiCache;Cache Node Usage;Cache Node Hours;AmazonElastiCache;%NodeUsage:cache%;;
+Database;Database;Amazon ElastiCache;Backup Operations;Snapshot Creation;AmazonElastiCache;%CreateCacheSnapshot%;;
+Database;Database;Amazon ElastiCache;Backup Storage;Backup Usage;AmazonElastiCache;%ElastiCache:BackupUsage;;
+Cloud Services;Security and Identity;Amazon GuardDuty;Additional Costs;Tax;AmazonGuardDuty;;;Tax%
+Cloud Services;Security and Identity;Amazon GuardDuty;Events Analyzed;Free Events;AmazonGuardDuty;%FreeEventsAnalyzed;;
+Cloud Services;Security and Identity;Amazon GuardDuty;Events Analyzed;Paid Events;AmazonGuardDuty;%PaidEventsAnalyzed;;
+Cloud Services;Security and Identity;Amazon GuardDuty;Events Analyzed;Free Events Data Volume;AmazonGuardDuty;%FreeEventsAnalyzed-Bytes;;
+Cloud Services;Security and Identity;Amazon GuardDuty;Events Analyzed;Paid Events Data Volume;AmazonGuardDuty;%PaidEventsAnalyzed-Bytes;;
+Cloud Services;Analytics;Amazon Kinesis;Additional Costs;Tax;AmazonKinesis;;;Tax%
+Cloud Services;Analytics;Amazon Kinesis;Stream Processing;Shard Hour Storage;AmazonKinesis;%Storage-ShardHour;;
+Cloud Services;Analytics;Amazon Kinesis;Data Ingestion;Put Request Units;AmazonKinesis;%PutRequestPayloadUnits;;
+Cloud Services;Analytics;Amazon Kinesis;Data Retrieval;Read Bytes;AmazonKinesis;%ReadBytes;;
+Cloud Services;Analytics;Amazon Kinesis;Enhanced Fanout;Enhanced Fanout Hour;AmazonKinesis;%EnhancedFanoutHour;;
+Cloud Services;Analytics;Amazon Kinesis;Stream Processing;Extended Shard Hour;AmazonKinesis;%Extended-ShardHour;;
+Cloud Services;Artificial Intelligence;Amazon Kendra;Enterprise Usage;Enterprise Edition;AmazonKendra;%KendraEnterpriseEdition;;
+Cloud Services;Artificial Intelligence;Amazon Kendra;Document Processing;Documents Scanned;AmazonKendra;%DocumentsScanned;;
+Cloud Services;Artificial Intelligence;Amazon Kendra;Connector Operations;Connector Sync;AmazonKendra;%ConnectorSync;;
+Cloud Services;Artificial Intelligence;Amazon Lex;Additional Costs;Tax;AmazonLex;;;Tax%
+Cloud Services;Artificial Intelligence;Amazon Lex;Request Processing;Requests;AmazonLex;%Req%;;
+Compute;Compute;Amazon Lightsail;Data Transfer;Data Transfer;AmazonLightsail;%DataXfer%;;
+Compute;Compute;Amazon Lightsail;IP Addresses;Unused Static IP;AmazonLightsail;%UnusedStaticIP;;
+Compute;Compute;Amazon Lightsail;Instance Usage;Bundle Usage;AmazonLightsail;%BundleUsage%;;
+Compute;Compute;Amazon Lightsail;Storage;Disk Usage;AmazonLightsail;%DiskUsage;;
+Compute;Compute;Amazon Lightsail;Backup;snapshot Usage;AmazonLightsail;%SnapshotUsage;;
+Cloud Services;Analytics;Amazon Redshift;Additional Costs;Tax;AmazonRedshift;;;Tax%
+Cloud Services;Analytics;Amazon Redshift;Cluster Usage;RA3 Node Hours;AmazonRedshift;%Node:ra%;;
+Cloud Services;Analytics;Amazon Redshift;Query Processing;data Scanned;AmazonRedshift;%DataScanned%;;
+Cloud Services;Analytics;Amazon Redshift;Cluster Usage;DC Node Hours;AmazonRedshift;%Node:dc%;;
+Cloud Services;Analytics;Amazon Redshift;Cluster Usage;DS Node Hours;AmazonRedshift;%Node:ds%;;
+Networking;Networking;Amazon Route 53;Domain Registration;Domain Registration;AmazonRegistrar;%Route53-Domains;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+x;;;;;;;;
